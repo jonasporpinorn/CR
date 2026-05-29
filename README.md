@@ -3,8 +3,6 @@
 
 ### 1. `script.js` (O Coração da Componentização)
 
-Este é o arquivo mais importante para explicar o conceito, pois é onde o HTML é transformado em funções reutilizáveis.
-
 ```javascript
 /**
  * COMPONENTE: Botão de Menu Reutilizável
@@ -55,8 +53,6 @@ const conteudo = document.getElementById("conteudo");
 
 ### 2. `index.html` (Página Inicial)
 
-Mostre aos alunos como o arquivo HTML fica limpo, delegando a responsabilidade de criar o cabeçalho e os cards para o JavaScript.
-
 ```html
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -89,8 +85,6 @@ Mostre aos alunos como o arquivo HTML fica limpo, delegando a responsabilidade d
 ---
 
 ### 3. `produtos.html` (Página de Produtos)
-
-Repare que a estrutura é idêntica à do `index.html`, mudando apenas os dados enviados ao componente do card.
 
 ```html
 <!DOCTYPE html>
@@ -160,8 +154,6 @@ Repare que a estrutura é idêntica à do `index.html`, mudando apenas os dados 
 
 ### 5. `style.css` (Estilização dos Componentes)
 
-Explique aos alunos que as classes aqui estilizadas se aplicam uniformemente às tags geradas pelo JavaScript.
-
 ```css
 /* Estilo geral para os parágrafos de destaque de cada página */
 .paragrafo {
@@ -217,6 +209,4 @@ Explique aos alunos que as classes aqui estilizadas se aplicam uniformemente às
 
 ```
 
-### Dica Pedagógica para a Aula:
-
-Peça aos alunos para fazerem um teste: *"Alterem a cor do `.botao-menu:hover` para verde no arquivo CSS ou adicionem mais um link no `script.js`"*. Eles verão que o site inteiro mudará modificando **apenas um único lugar**, exemplificando perfeitamente o poder da reutilização de componentes.
+---
