@@ -150,7 +150,7 @@ Agora vamos criar as três páginas. Repare que todas elas possuem a mesma estru
     <script src="script.js"></script>
     <script>
         // Personalizando o card desta página
-        conteudo.innerHTML = criarCard("Legião Urbana", "Índios");
+        conteudo.innerHTML = criarCard("Esse é meu site", "Utilizando Componentes Reutilizáveis");
     </script>
 </body>
 </html>
